@@ -89,3 +89,4 @@ venv/
 *.pkl
 *.dll
 *.h5
+instance/
