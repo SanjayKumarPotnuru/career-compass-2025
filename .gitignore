@@ -1,0 +1,91 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+.env/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# dotenv
+.env
+.env.*
+
+# Flask
+instance/
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# VS Code / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Data & model artifacts
+ml_model/final_ensemble_model.pkl
+ml_model/temp_model.pkl
+*.pkl
+*.h5
+*.joblib
+*.csv
+*.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional: node_modules if you use npm/JS
+node_modules/
+# Ignore environment folder
+env/
+venv/
+# Ignore large model files
+*.pkl
+*.dll
+*.h5
