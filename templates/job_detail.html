@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="job-detail-container">
+
+    <h2 class="job-title">{{ job }}</h2>
+
+    <p><strong>Description:</strong> <span class="job-text">{{ info.description }}</span></p>
+    <p><strong>Qualification Required:</strong> <span class="job-text">{{ info.qualification }}</span></p>
+    <p><strong>Future Scope:</strong> <span class="job-text">{{ info.future }}</span></p>
+
+    <h3 class="salary-heading">📍 Location-wise Salary</h3>
+    <ul class="salary-list">
+        {% for location, salary in info.locations.items() %}
+            <li>{{ location }} – {{ salary }}</li>
+        {% endfor %}
+    </ul>
+
+    {% if info.companies %}
+        <h3 class="salary-heading">🏢 Top Companies Hiring</h3>
+        <ul class="salary-list">
+            {% for company in info.companies %}
+                <li>{{ company }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    <a class="back-link" href="/dashboard">🔙 Back to Dashboard</a>
+</div>
+{% endblock %}

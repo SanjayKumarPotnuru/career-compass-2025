@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div style="text-align: center; padding: 40px;">
+    <h1 style="font-size: 36px; margin-bottom: 15px;">
+        <span style="color:#080808;">Welcome to</span>
+        <span style="color: #0040ff;">Career Compass</span>
+    </h1>
+
+    {% if not session.get('user_id') %}
+        <p style="font-size: 20px; margin-bottom: 30px;">
+            Navigate To Your Career Journey With Us  
+        </p>
+
+        <!-- Auth Buttons -->
+        <div style="margin-bottom: 20px;">
+            <a href="/register" class="button register-button">📝 Register</a>
+            <a href="/login" class="button login-button">🔐 Login</a>
+        </div>
+
+    {% else %}
+        <h2 style="margin-bottom: 20px;">🎯 Ready to Discover Your Career Match?</h2>
+        <form method="POST" action="/predict" class="salary-form">
+            <input type="number" name="salary" id="expected_sal"
+                   placeholder="Enter your expected salary (e.g. 600000)"
+                   min="1" class="input-field" required>
+            <button type="submit" class="button suggest-button">🔍 Get Career Suggestions</button>
+        </form>
+    {% endif %}
+</div>
+{% endblock %}

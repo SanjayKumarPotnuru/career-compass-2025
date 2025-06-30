@@ -1,0 +1,422 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, #4300FF, #0065F8,#00CAFF,#00FFDE);
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar */
+nav {
+    background-color: #4A90E2;
+    color: white;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Page container */
+.container {
+    flex: 1;
+    padding: 30px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Headings */
+h2, h3 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Buttons and links */
+a.button {
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+a.button:hover {
+    background-color: #357ABD;
+}
+
+/* Card styles for job results */
+.job-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.job-card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #4A90E2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+#expected_sal{
+
+    padding: 5px;
+    border-radius: 5px;
+    /* padding; */
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+body {
+    background-color: #f7f9fc;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.job-detail-container {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.job-title {
+    font-size: 32px;
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+.job-text {
+    font-size: 18px;
+    color: #333;
+}
+
+.salary-heading {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #cc0033;
+}
+
+.salary-list {
+    list-style-type: disc;
+    margin-left: 25px;
+    font-size: 17px;
+    color: #222;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #4A90E2;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+.about-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+.footer {
+    background: linear-gradient(to right, #004080, #0077cc);
+    color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+}
+
+.footer a {
+    color: #ffdd57;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+.input-field {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.input-field:focus {
+    border-color: #4A90E2;
+    outline: none;
+    box-shadow: 0 0 8px rgba(74, 144, 226, 0.3);
+}
+.register-btn {
+    width: 100%;
+    padding: 12px 18px;
+    background-color: #28a745; /* Green shade */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.register-btn:hover {
+    background-color: #218838;
+    transform: scale(1.02);
+}
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.form-container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-style input.input-field {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.button.login-button {
+    width: 100%;
+    background-color: #28a745;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.button.login-button:hover {
+    background-color: #218838;
+}
+/* .button{
+    background-color: green;
+} */
+ .button.register-button {
+    width: 100%;
+    background-color: #4169e1; /* Royal Blue */
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.button.register-button:hover {
+    background-color: #365ac0;
+}
+
+.button.login-button {
+    width: 100%;
+    background-color: #ff8c00; /* Dark Orange */
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.button.login-button:hover {
+    background-color: #e67600;
+}
+.dashboard-container {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.dashboard-heading {
+    font-size: 28px;
+    color: #004080;
+    margin-bottom: 10px;
+}
+
+.dashboard-subtext {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.salary-form .input-field {
+    width: 80%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #4A90E2;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.dashboard-button {
+    width: 100%;
+    background-color: #00B894;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.dashboard-button:hover {
+    background-color: #00997a;
+}
+.wide-field {
+    width: 100%;
+    max-width: 450px;
+    margin: 10px auto;
+    display: block;
+}
+
+.input-field {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #4A90E2;
+    border-radius: 8px;
+}
+
+.dashboard-button {
+    background-color: #00B894;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-button:hover {
+    background-color: #00997a;
+}
+.button {
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.register-button {
+    background-color: #6c5ce7;
+    color: white;
+}
+
+.register-button:hover {
+    background-color: #5e50c6;
+}
+
+.login-button {
+    background-color: #0984e3;
+    color: white;
+}
+
+.login-button:hover {
+    background-color: #076dc1;
+}
+
+.suggest-button {
+    background-color: #00b894;
+    color: white;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 15px;
+}
+
+.suggest-button:hover {
+    background-color: #019875;
+}
+
+.input-field {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 2px solid #4A90E2;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+    display: block;
+}
+
+.salary-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

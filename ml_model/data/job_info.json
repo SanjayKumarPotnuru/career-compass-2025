@@ -1,0 +1,123 @@
+{
+  "ANDROID": {
+    "description": "Designs and develops Android applications using Kotlin or Java.",
+    "qualification": "B.Tech in CSE/IT, knowledge of Android SDK and mobile UI/UX.",
+    "future": "Strong demand with increasing mobile-first applications.",
+    "locations": {
+      "Bangalore": "₹6,50,000",
+      "Hyderabad": "₹5,80,000",
+      "Pune": "₹5,50,000"
+    },
+    "companies": ["Google", "Samsung", "Flipkart", "Paytm"]
+  },
+  "BACKEND": {
+    "description": "Works on server-side application logic and integration of databases.",
+    "qualification": "B.Tech in CSE/IT, strong in Node.js, Python, Java or Go.",
+    "future": "Critical role in scalable system development and APIs.",
+    "locations": {
+      "Bangalore": "₹7,20,000",
+      "Chennai": "₹6,00,000",
+      "Gurgaon": "₹6,50,000"
+    },
+    "companies": ["Amazon", "Microsoft", "Swiggy", "Zoho"]
+  },
+  "DATABASE": {
+    "description": "Manages and maintains relational and NoSQL databases.",
+    "qualification": "B.Tech or equivalent, expertise in SQL, MongoDB, etc.",
+    "future": "Growing need for optimized data storage and management.",
+    "locations": {
+      "Mumbai": "₹6,00,000",
+      "Noida": "₹5,80,000",
+      "Kolkata": "₹5,20,000"
+    },
+    "companies": ["Oracle", "TCS", "Infosys", "Cognizant"]
+  },
+  "FRONTEND": {
+    "description": "Implements user interfaces using HTML, CSS, and JavaScript frameworks.",
+    "qualification": "B.Tech in CSE/IT, React.js, Angular or Vue experience preferred.",
+    "future": "Essential for improving UX and responsive design.",
+    "locations": {
+      "Bangalore": "₹6,30,000",
+      "Hyderabad": "₹5,90,000",
+      "Chennai": "₹5,70,000"
+    },
+    "companies": ["Zomato", "Ola", "Adobe", "Byju's"]
+  },
+  "IOS": {
+    "description": "Builds applications for Apple's iOS platform using Swift or Objective-C.",
+    "qualification": "B.Tech with iOS development experience.",
+    "future": "Increasing demand in premium app market and startups.",
+    "locations": {
+      "Pune": "₹6,80,000",
+      "Delhi": "₹6,20,000",
+      "Ahmedabad": "₹5,70,000"
+    },
+    "companies": ["Apple", "Cred", "Swiggy", "Hotstar"]
+  },
+  "JAVA": {
+    "description": "Develops backend systems or enterprise applications using Java.",
+    "qualification": "Strong Java skills, knowledge of Spring or Hibernate frameworks.",
+    "future": "Stable demand in enterprise and banking sectors.",
+    "locations": {
+      "Bangalore": "₹7,00,000",
+      "Hyderabad": "₹6,00,000",
+      "Chennai": "₹6,20,000"
+    },
+    "companies": ["Infosys", "IBM", "Capgemini", "Oracle"]
+  },
+  "MOBILE": {
+    "description": "Develops cross-platform or native mobile applications.",
+    "qualification": "Familiarity with Flutter, React Native or platform-specific SDKs.",
+    "future": "Surge in mobile-first app development across industries.",
+    "locations": {
+      "Bangalore": "₹6,40,000",
+      "Mumbai": "₹5,90,000",
+      "Pune": "₹5,70,000"
+    },
+    "companies": ["PhonePe", "Tata Digital", "CureFit", "Urban Company"]
+  },
+  "PYTHON": {
+    "description": "Uses Python for backend development, automation, or data tasks.",
+    "qualification": "Good Python knowledge with Django, Flask or data libraries.",
+    "future": "Dominant in automation, AI/ML and web backends.",
+    "locations": {
+      "Bangalore": "₹6,80,000",
+      "Delhi": "₹6,30,000",
+      "Hyderabad": "₹6,10,000"
+    },
+    "companies": ["Google", "TCS", "Razorpay", "Walmart"]
+  },
+  "SDE": {
+    "description": "General Software Development Engineer role across systems or products.",
+    "qualification": "Solid DSA, problem solving, and system design skills.",
+    "future": "High-demand job with vast application in tech companies.",
+    "locations": {
+      "Bangalore": "₹10,00,000",
+      "Hyderabad": "₹9,50,000",
+      "Gurgaon": "₹9,20,000"
+    },
+    "companies": ["Amazon", "Microsoft", "Google", "Flipkart"]
+  },
+  "TESTING": {
+    "description": "Ensures software quality via manual or automated testing.",
+    "qualification": "Knowledge of QA practices, Selenium, JUnit or Cypress.",
+    "future": "Important role with test automation growing rapidly.",
+    "locations": {
+      "Pune": "₹5,20,000",
+      "Kochi": "₹4,80,000",
+      "Noida": "₹5,00,000"
+    },
+    "companies": ["TCS", "Wipro", "Infosys", "Tech Mahindra"]
+  },
+  "WEB": {
+    "description": "Full-stack or web-focused developer building websites and web apps.",
+    "qualification": "HTML, CSS, JS, backend tech like PHP/Node or Python.",
+    "future": "Web development is universal and evergreen.",
+    "locations": {
+      "Bangalore": "₹6,10,000",
+      "Hyderabad": "₹5,60,000",
+      "Indore": "₹4,90,000"
+    },
+    "companies": ["Freshworks", "Zoho", "Adobe", "Naukri.com"]
+  }
+}

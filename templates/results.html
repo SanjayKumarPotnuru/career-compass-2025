@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2 style="text-align: center;color: white;">Top Career Matches for You</h2>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px;">
+    {% for job in jobs %}
+        <a href="{{ url_for('job_detail', job_name=job) }}"
+           style="text-decoration: none; color: inherit;">
+            <div style="
+                width: 300px;
+                height: 200px;
+                border: 2px solid #4A90E2;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 22px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                text-align: center;
+                font-weight: bold;
+                background: linear-gradient(to right, #f0f8ff, #e6f2ff);
+                transition: transform 0.2s;
+            "
+            onmouseover="this.style.transform='scale(1.05)'"
+            onmouseout="this.style.transform='scale(1)'">
+                {{ job }}
+            </div>
+        </a>
+    {% endfor %}
+</div>
+
+<br>
+<div style="text-align: center;">
+    <a href="/dashboard" style="color: #131519;"> Back to Dashboard</a>
+</div>
+<!-- <div class="job-card">{{ job }}</div> -->
+
+{% endblock %}

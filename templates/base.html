@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Career Compass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Optional JS -->
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+
+<nav class="navbar">
+    <div><a href="/about" style="color: white; text-decoration: none;"><strong>Career Compass</strong></a></div>
+
+    <!-- <div class="brand">🎯 Career Compass</div> -->
+    <div class="nav-links">
+        <a href="/">🏠 Home</a>
+        {% if session.get('user_id') %}
+            <a href="/dashboard">📊 Dashboard</a>
+            <a href="/logout">🚪 Logout</a>
+        {% else %}
+            <a href="/login">🔐 Login</a>
+            <a href="/register">📝 Register</a>
+        {% endif %}
+    </div>
+</nav>
+
+<div class="container">
+    {% block content %}{% endblock %}
+</div>
+
+<footer class="footer">
+    <div>
+        <p>🔍 Career Compass &copy; 2025 | Designed for Career Guidance</p>
+        <p>
+            Contact us at 
+            <a href="mailto:careercompass@gmail.com">careercompass@gmail.com</a>
+        </p>
+        <p>
+            <a href="https://github.com/SanjayKumarPotnuru/career-compass-2025" target="_blank">GitHub Repository</a>
+        </p>
+    </div>
+</footer>
+</body>
+
+</html>

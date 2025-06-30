@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="dashboard-container">
+    <h2 class="dashboard-heading">👋 Welcome, {{ username }}!</h2>
+    <p class="dashboard-subtext">Enter your expected salary to find matching career paths 🚀</p>
+
+    <form method="POST" class="salary-form">
+    <input type="number" name="salary" id="expected_sal"
+           placeholder="Enter your expected salary"
+           min="1" required class="input-field wide-field">
+
+    <button type="submit" class="button dashboard-button wide-field">
+        🎯 Predict It
+    </button>
+</form>
+
+</div>
+{% endblock %}
